@@ -1,0 +1,17 @@
+[2018-06-23 06:14:01.840871]
+Hello World
+This is a second line
+
+
+[2018-06-23 06:53:06.651610]
+This is an entry in the CLI
+
+
+[2018-06-23 07:13:31.431597]
+Hello hello
+
+
+[2018-06-26 09:26:58.105116]
+This is a test for another day
+
+
