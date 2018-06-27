@@ -19,7 +19,7 @@ class entry:
 		return str(self.date)
 
 	def makePermanent(self):
-		file = open("Journal.txt", 'a')
+		file = open("Journal.txt", 'a')			#Change this to whatever file you want to write to, by default its set to the testing file
 		file.write('[' + str(self.timestamp) + ']')
 		file.write("\n")
 		file.write(self.textentry)
@@ -31,7 +31,7 @@ def main():
 	choice = '1'
 	while(choice != 'Q' or choice !='q'):
 		print("------------------------------------")
-		print("Welcome to XDiary 2.0")
+		print("Welcome to PyJournal")
 		print("Please choose an option to continue")
 		print("1-Write to Journal")
 		print("2-Read entries of a particular date")
@@ -43,8 +43,10 @@ def main():
 
 		if(choice == "1"):
 			write()
-		elif(choice == "3"):
+		elif(choice == "2"):
 			read()
+		elif(choice == "3"):
+			printJournal()
 		elif(choice == 'Q' or choice=='q'):
 			updateLogs()
 			break
@@ -112,6 +114,10 @@ def printJournal(init, tail, r):
 	finally:
 		del r
 		return date2
+
+def printJournal():
+	rfile = open("Journal.txt", "r")
+	print(rfile.read())
 
 def updateLogs():
 	#logfile 
