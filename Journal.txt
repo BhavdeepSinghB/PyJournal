@@ -1,3 +1,6 @@
+NOTE: This is a testing file, its purpose is to record the progress of development, by default, 
+the source is pointing to this file, change that if you want to create a new Journal
+
 [2018-06-23 06:14:01.840871]
 Hello World
 This is a second line
@@ -13,5 +16,9 @@ Hello hello
 
 [2018-06-26 09:26:58.105116]
 This is a test for another day
+
+
+[2018-06-27 16:40:37.749920]
+This is a test from another machine
 
 
