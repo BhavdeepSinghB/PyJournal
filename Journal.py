@@ -94,16 +94,16 @@ def read():
 		tail = next(r)
 		date2 = tail[1:11]	
 		if(userDate == date1):
-			date2 = printJournal(init, tail, r)
+			date2 = printJournalByDate(init, tail, r)
 			while(date1 == date2):
 				tail = next(r)
-				date2 = printJournal(init, tail, r)
+				date2 = printJournalByDate(init, tail, r)
 	except StopIteration:
 		print("Date not found")
 
 
 
-def printJournal(init, tail, r):
+def printJournalByDate(init, tail, r):
 	try:
 		while(init[0] != tail[0]):
 			print(tail)

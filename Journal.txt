@@ -22,3 +22,11 @@ This is a test for another day
 This is a test from another machine
 
 
+[2018-06-28 12:23:32.294906]
+Day one of actual writing, my Command line interface is now fully functional, other than the working of the about section. And that's exactly where all the problems stem from, I've never been able to talk too much about myself. I can sit there and talk about how I went about creating this journal for days but if you put me on the spot to talk about me as a person or describe this journal for what it is, I wouldn't know what to do 
+I used to think that that's a sign of humility,  but it could simply be the fact that I have an event driven life, where I work based on the events that take place in my life, they define me and they act as timestamps in my life an example was when I was trying to get in a frat and "an interesting fact about myself" was the fact that I was a "sports journalist", that barely talks about me. 
+Even today, I define myself as a "code goblin" which, well I find pretty cool, but I don't think is it, if I don't want to be seen as only computer science then I can't define myself as "only comouter science" and if at the same time if I don't feel like letting go of it then I might as well put it well enough for people to understand. But that also brings in the argument about me giving a rat's ass about what people think, and I'm not lying to myself, people's opinions of me do hold a big bearing on my daily life, and that's the paradox. 
+I guess the next thing that comes to mind would be whats the problem with caring about what peolpe think? And the answer to that is quite simple, I will never be happy. I feel like pleasing everyone and thats a VERY idealistic scenario, i.e. its not going to happen. I could short list a bunch of people and make them happy but if the cahsier at Wendy's gives me a snide look because I didn't hear her the first time or something, that'll kill me on the inside. I thought I was getting better at this, and I guess I am if the surroundings are familiar, I'm okay with messing up in school or at home or something, but when I go out, then its a big NOPE 
+In addition, I guess I'm writing this to help log my thoughts, at least this way we can track exactly what goes on in my head because personally, I have nooo idea
+
+
