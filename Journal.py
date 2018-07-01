@@ -80,19 +80,19 @@ def read():
 	userDate = raw_input("Enter a date (yyyy-mm-dd) ")
 	rfile = open("Journal.txt", "r")
 	readstuff = rfile.readlines()
-	#print(readstuff)
 	r = iter(readstuff)
 	init = next(r)
 	date1 = init[1:11] 
 	tail = next(r)
 	date2 = tail[1:11]
 	
+
 	try:
 		while(userDate != date1):
 			init = next(r)
 			date1 = init[1:11] 
-		tail = next(r)
-		date2 = tail[1:11]	
+		#tail = next(r)
+		#date2 = tail[1:11]	
 		if(userDate == date1):
 			date2 = printJournalByDate(init, tail, r)
 			while(date1 == date2):
