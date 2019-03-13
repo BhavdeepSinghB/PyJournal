@@ -1,5 +1,12 @@
 import datetime
 
+#Edit these
+fileName = "BuildLog.txt"						
+filePath = "../100DaysOfCode/Timer/"			
+
+fileFinder = filePath + fileName
+
+
 class entry:
 	timestamp = datetime.datetime.now()
 	textentry = "\n"
@@ -19,7 +26,7 @@ class entry:
 		return str(self.date)
 
 	def makePermanent(self):
-		file = open("Journal.txt", 'a')			#Change this to whatever file you want to write to, by default its set to the testing file
+		file = open(fileFinder, 'a')			#Change this to whatever file you want to write to, by default its set to the testing file
 		file.write('[' + str(self.timestamp) + ']')
 		file.write("\n")
 		file.write(self.textentry)
@@ -78,7 +85,7 @@ def write():
 def read():
 	flag = False
 	userDate = raw_input("Enter a date (yyyy-mm-dd) ")
-	rfile = open("Journal.txt", "r")
+	rfile = open(fileFinder, "r")
 	readstuff = rfile.readlines()
 	r = iter(readstuff)
 	init = next(r)
@@ -116,7 +123,7 @@ def printJournalByDate(init, tail, r):
 		return date2
 
 def printJournal():
-	rfile = open("Journal.txt", "r")
+	rfile = open(fileFinder, "r")
 	print(rfile.read())
 
 def updateLogs():
