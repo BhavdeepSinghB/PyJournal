@@ -11,7 +11,7 @@ class entry:
 	timestamp = datetime.datetime.now()
 	textentry = "\n"
 	time = datetime.time()
-	date = datetime.date.today()
+	date = datetime.date.today() 
 
 	def setText(self, text):
 		self.textentry = text
